@@ -3,3 +3,29 @@
 body{
     background: white;
 }
+
+.box {
+    width: 600px;
+    margin: auto;
+}
+
+.img-cont{
+    overflow: hidden;
+    height: 300px;
+    width: 600px;
+    border: 1px 1px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.img-cont img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.head{
+    background: rgb(148, 8, 212);
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
